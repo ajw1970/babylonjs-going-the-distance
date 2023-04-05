@@ -15,5 +15,25 @@
   "bugs": {
     "url": "https://github.com/ajw1970/babylonjs-going-the-distance/issues"
   },
-  "homepage": "https://github.com/ajw1970/babylonjs-going-the-distance#readme"
+  "homepage": "https://github.com/ajw1970/babylonjs-going-the-distance#readme",
+  "devDependencies": {
+    "@babylonjs/core": "^5.53.1",
+    "@babylonjs/gui": "^5.53.1",
+    "@babylonjs/inspector": "^5.53.1",
+    "@babylonjs/loaders": "^5.53.1",
+    "@babylonjs/materials": "^5.53.1",
+    "@babylonjs/post-processes": "^5.53.1",
+    "@babylonjs/procedural-textures": "^5.53.1",
+    "@babylonjs/serializers": "^5.53.1",
+    "clean-webpack-plugin": "^4.0.0",
+    "eslint": "^8.37.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "source-map-loader": "^4.0.1",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.78.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.2",
+    "webpack-merge": "^5.8.0"
+  }
 }
