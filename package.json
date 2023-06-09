@@ -1,7 +1,7 @@
 {
-  "name": "going-the-distance-ebook",
-  "version": "1.0.0",
-  "description": "",
+  "name": "space-truckers",
+  "version": "0.0.1",
+  "description": "A game built in BabylonJS. Companion to book",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,32 +11,37 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ajw1970/babylonjs-going-the-distance.git"
+    "url": "git+https://github.com/jelster/space-truckers.git"
   },
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "BabylonJS",
+    "Game"
+  ],
+  "author": "Josh Elster",
+  "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/ajw1970/babylonjs-going-the-distance/issues"
+    "url": "https://github.com/jelster/space-truckers/issues"
   },
-  "homepage": "https://github.com/ajw1970/babylonjs-going-the-distance#readme",
+  "homepage": "https://github.com/jelster/space-truckers#readme",
+  "dependencies": {},
   "devDependencies": {
-    "@babylonjs/core": "^5.53.1",
-    "@babylonjs/gui": "^5.53.1",
-    "@babylonjs/inspector": "^5.53.1",
-    "@babylonjs/loaders": "^5.53.1",
-    "@babylonjs/materials": "^5.53.1",
-    "@babylonjs/post-processes": "^5.53.1",
-    "@babylonjs/procedural-textures": "^5.53.1",
-    "@babylonjs/serializers": "^5.53.1",
-    "clean-webpack-plugin": "^4.0.0",
-    "eslint": "^8.37.0",
+    "@babylonjs/core": "^5.0.0-alpha.9 <= 5.0.0",
+    "@babylonjs/gui": "^5.0.0-alpha.9 <= 5.0.0",
+    "@babylonjs/inspector": "^5.0.0-alpha.9 <= 5.0.0",
+    "@babylonjs/loaders": "^5.0.0-alpha.9 <= 5.0.0",
+    "@babylonjs/materials": "^5.0.0-alpha.9 <= 5.0.0",
+    "@babylonjs/post-processes": "^5.0.0-alpha.9 <= 5.0.0",
+    "@babylonjs/procedural-textures": "^5.0.0-alpha.9 <= 5.0.0",
+    "@babylonjs/serializers": "^5.0.0-alpha.9 <= 5.0.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "eslint": "^7.18.0",
     "file-loader": "^6.2.0",
-    "html-webpack-plugin": "^5.5.0",
-    "source-map-loader": "^4.0.1",
+    "html-webpack-plugin": "^4.5.1",
+    "source-map-loader": "^2.0.0",
     "url-loader": "^4.1.1",
-    "webpack": "^5.78.0",
-    "webpack-cli": "^5.0.1",
-    "webpack-dev-server": "^4.13.2",
-    "webpack-merge": "^5.8.0"
+    "webpack": "^5.17.0",
+    "webpack-cli": "^4.4.0",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.7.3"
   }
 }

@@ -9,6 +9,39 @@ module.exports = {
         filename: "js/babylonBundle.js",
         path: path.resolve(appDirectory, "dist")
     },
+    resolve: {
+        extensions: [".ts", ".js"],
+        fallback: {
+            fs: false,
+            path: false,
+        },
+    },
+    module: {
+        rules: [
+            {
+                test: /\.m?js/,
+                resolve: {
+                    fullySpecified: false,
+                },
+            },
+            {
+                test: /\.(js|mjs|jsx|ts|tsx)$/,
+                loader: "source-map-loader",
+                enforce: "pre",
+            },
+            {
+                test: /\.(png|jpg|gif|env|glb|stl)$/i,
+                use: [
+                    {
+                        loader: "url-loader",
+                        options: {
+                            limit: 8192,
+                        },
+                    },
+                ],
+            },
+        ],
+    },
     plugins: [
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
