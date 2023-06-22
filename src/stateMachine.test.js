@@ -8,7 +8,7 @@ describe("Generator function", () => {
     }
 
     test("Using generator as state machine", () => {
-        asm = appStateMachine();
+        let asm = appStateMachine();
 
         let state = asm.next();
         expect(state.value).toBe("INDETERMINATE");
